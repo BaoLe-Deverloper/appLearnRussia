@@ -26,11 +26,11 @@ export default
       htmlBefore: '<i class="material-icons">import_contacts</i>',
       to: "/books",
     },
-    {
-      title: "User Profile",
-      htmlBefore: '<i class="material-icons">person</i>',
-      to: "/user-profile-lite",
-    },
+    // {
+    //   title: "User Profile",
+    //   htmlBefore: '<i class="material-icons">person</i>',
+    //   to: "/user-profile-lite",
+    // },
     {
       title: "Errors",
       htmlBefore: '<i class="material-icons">error</i>',

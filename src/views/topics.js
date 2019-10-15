@@ -33,7 +33,7 @@ class vocabulary extends React.Component {
   }
   render() {
    
-    console.log(this.props);
+
     
     return (
       <Container  fluid className="main-content-container px-4">

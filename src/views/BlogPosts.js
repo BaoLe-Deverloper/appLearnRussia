@@ -32,8 +32,6 @@ Speech  (text){
 }
 render() {
 
-  console.log(this.props.post);
-
     return (
       <Container style={{backgroundColor:"#606060"}} fluid className="main-content-container px-4">
         {/* Page Header */}

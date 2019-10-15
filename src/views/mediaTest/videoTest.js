@@ -50,7 +50,7 @@ class videoTest extends Component {
     onConfirm=()=>{
         
         const test = { id: this.props.id, clientAnswers: this.state.answers };
-        console.log(test)
+        
         this.props._checkTest(test);
         this.setState({ showAlert: false });
     }
@@ -69,7 +69,7 @@ class videoTest extends Component {
         if (result){
             open = true;
         }
-      console.log(this.state)
+  
         return(
             <Container fluid className="main-content-container">
                { 

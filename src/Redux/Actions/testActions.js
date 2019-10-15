@@ -18,7 +18,7 @@ export const addTest = test => {
                 }
             }).then(resp => {
                 dispatch({ type: types.addTest, payload: resp.data });
-                console.log(resp);
+               
             })
         }
     }
@@ -42,7 +42,7 @@ export const getListTest = () => {
 }
 export const getTest = id => {
     return dispatch => {
-        console.log(id)
+      
         const  token =  localStorage.getItem("accessToken");
         if (token) {
             axios(config.UrlServerBase + "test/" + id, {
@@ -55,7 +55,6 @@ export const getTest = id => {
                 if (!resp.data.err)
                     dispatch({ type: types.getTest, payload: resp.data });
 
-                    console.log(resp)
             });
         }
     }

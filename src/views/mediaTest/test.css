@@ -1,9 +1,9 @@
-img {
+p img {
   width: 100%;
   height: auto;
 }
 
-@media screen and (min-width: 400px) {
+@media  (min-width: 400px) and (max-width:750px) {
   .answer_css {
     position: fixed !important;
     margin-top: 75%;
@@ -11,7 +11,7 @@ img {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .answer_css {
     height: 600px;
     position: inherit;

@@ -13,6 +13,7 @@ import {
   FormGroup,
   Card,
   CardBody,
+  Container
 } from "shards-react";
 import { Link } from "react-router-dom";
 
@@ -171,12 +172,15 @@ class index extends React.Component {
 </Form>;
 
     return (
-              <Card style={{maxWidth:"600px",margin: "40px auto"}}>
-                <CardBody>
-                  {this.state.open ? login : signup}
+      <Container>
+        <Card style={{ maxWidth: "600px", margin: "40px auto", }}>
+          <CardBody>
+            {this.state.open ? login : signup}
 
-                </CardBody>
-              </Card>
+          </CardBody>
+        </Card>
+      </Container>
+            
     );
   }
 }

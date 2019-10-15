@@ -9,7 +9,6 @@ import { connect } from 'react-redux';
 import { testActions } from './../../Redux/Actions';
 import tickImg from "./../../images/system/tick.jpg";
 import failImg from "./../../images/system/Fail.png"
-import "./test.css"
 class test extends Component {
     constructor(props) {
         super(props);
@@ -50,7 +49,7 @@ class test extends Component {
     }
     render() {
         const result = this.props.response;
-       // console.log(result)
+      
         const html = this.props.test ? this.props.test.url_media : "<p>loading...</p>";
         let questions = this.props.test ? this.props.test.questions.map((question, isx) => (
             <ListGroupItem id={question.number} key={isx} className="px-3 pb-2">

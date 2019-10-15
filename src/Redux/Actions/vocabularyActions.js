@@ -3,7 +3,6 @@ import axios from "axios";
 import types from "./../Types";
 
 export const getVocabularies = (idTopic,name) => {
-console.log(name)
   return dispatch => {
     const token = localStorage.getItem("accessToken");
     return axios(

@@ -82,7 +82,6 @@ class addVocabulary extends Component {
     })
   }
   render(){
-    console.log(this.state)
     return(
       <Container>
         <Row noGutters className="page-header py-4">

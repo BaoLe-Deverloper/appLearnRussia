@@ -6,7 +6,7 @@ import { DefaultLayout,LayoutIndex,LayoutSignPage } from "./layouts";
 
 // Route Views
 import BlogOverview from "./views/BlogOverview";
-import UserProfileLite from "./views/UserProfileLite";
+// import UserProfileLite from "./views/UserProfileLite";
 import AddQuestions from "./views/AddQuestions";
 import Errors from "./views/Errors";
 import Topics from "./views/topics";
@@ -50,13 +50,13 @@ export default [
     private:true,
     claim:"student"
   },
-  {
-    path: "/user-profile-lite",
-    layout: DefaultLayout,
-    component: UserProfileLite,
-    private:true,
-    claim:"student"
-  },
+  // {
+  //   path: "/user-profile-lite",
+  //   layout: DefaultLayout,
+  //   component: UserProfileLite,
+  //   private:true,
+  //   claim:"student"
+  // },
   {
     path: "/add-test",
     layout: DefaultLayout,

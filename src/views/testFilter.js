@@ -38,7 +38,7 @@ class testFilter extends Component{
 
         }
       }).then(resp => {
-        console.log(resp)
+       
         if (!resp.data.message)
           this.setState({ listTest: resp.data });
       })
@@ -55,9 +55,9 @@ class testFilter extends Component{
 
   }
   render(){
-    console.log(this.state)
+ 
     return (
-      <Container style={{ height:"790px" }} fluid className="main-content-container px-4">
+      <Container style={{ minHeight:"790px" }} fluid className="main-content-container px-4">
         <Row noGutters className="page-header py-4">
           <PageTitle title="Test List" className="text-sm-left mb-3" />
            

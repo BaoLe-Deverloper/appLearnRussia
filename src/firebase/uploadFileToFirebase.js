@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import firebase from "firebase/app";
+import firebase from "firebase";
 import { Progress } from "shards-react";
 import FileUploader from "react-firebase-file-uploader";
 import  "./initFirebase";

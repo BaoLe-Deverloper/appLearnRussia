@@ -197,7 +197,7 @@ class addQuestions extends Component {
       toast.notify("Успешно сохранено в базе данных !", { position: 'top', duration: 2000 });
       return <Redirect to={{ pathname: "/send", state: { id: this.props.test.id } }} />
     }
-    console.log(this.state)
+
     return (
       <Container fluid className="main-content-container px-4 pb-4">
         {/* Page Header */}

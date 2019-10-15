@@ -67,7 +67,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
         }
     }
     render() {
-   console.log(this.state)
+   
        if(this.state.id_view){
            if (this.state.type === "test")
               return <Redirect to={{ pathname: '/add-test', state: { id: this.state.id_view } }} />;
