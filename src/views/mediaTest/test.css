@@ -5,7 +5,7 @@ img {
 
 @media screen and (min-width: 400px) {
   .answer_css {
-    position: fixed;
+    position: fixed !important;
     margin-top: 75%;
     height: 40%;
   }

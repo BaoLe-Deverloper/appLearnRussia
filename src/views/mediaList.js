@@ -78,7 +78,7 @@ import SweetAlert from 'react-bootstrap-sweetalert';
        if(this.state.idTest)
            return <Redirect to={{pathname:"/send", state :{id:this.state.idTest}}}/>
         return (
-            <Container fluid className="main-content-container px-4">
+            <Container style={{ minHeight: "800px" }} fluid className="main-content-container px-4">
                 <Row noGutters className="page-header py-4">
                     <PageTitle title="Media List" className="text-sm-left mb-3" />
                 </Row>
@@ -140,6 +140,8 @@ import SweetAlert from 'react-bootstrap-sweetalert';
                         </Col>
                     ))}
                 </Row>
+                <br/>
+                <br />
             </Container>
         );
     }
