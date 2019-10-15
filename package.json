@@ -1,8 +1,11 @@
 {
-  "name": "shards-dashboard-lite-react",
+  "name": "app-learn-russian",
   "version": "1.0.0",
   "private": true,
-  "homepage": "./",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.3"
+  },
   "dependencies": {
     "axios": "^0.19.0",
     "camelize": "^1.0.0",
@@ -44,13 +47,12 @@
     "toasted-notes": "^3.0.0",
     "video-react": "^0.14.1"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build:prod": "cross-env REACT_APP_BASENAME=/demo/shards-dashboard-lite-react REACT_APP_GAID=UA-115105611-1 npm run build",
-    "build": "cross-env REACT_APP_BASENAME=/demo/shards-dashboard-lite-react react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+   "scripts": {
+     "start": "react-scripts start",
+     "build": "react-scripts build",
+     "test": "react-scripts test --env=jsdom",
+     "eject": "react-scripts eject"
+   },
   "eslintConfig": {
     "extends": "react-app"
   },
