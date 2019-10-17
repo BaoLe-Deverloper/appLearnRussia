@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route,Switch } from "react-router-dom";
 import routes from "./routes";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./shards-dashboard/styles/shards-dashboards.1.1.0.min.css";
+import "./assets/styles/shards-dashboards.1.1.0.min.css";
 import { userActions } from "./Redux/Actions";
 import { connect } from "react-redux";
 import {ProtectedRoute} from "./auth/ProtectedRoute";
