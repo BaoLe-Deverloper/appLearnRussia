@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const MainFooter = ({ contained, menuItems, copyright }) => (
   <footer className="main-footer d-flex p-2 px-3 bg-white border-top">
     <Container fluid={contained}>
+     <Row style={{height:"400px"}}></Row>
       <Row>
         <Nav>
           {menuItems.map((item, idx) => (
